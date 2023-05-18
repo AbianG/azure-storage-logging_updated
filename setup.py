@@ -18,7 +18,7 @@ CLASSIFIERS=[
 
 setup(
     name='azure-storage-logging_updated',
-    version='0.6.0',
+    version='0.7.0',
     description='Logging handlers to send logs to Microsoft Azure Storage',
     long_description=open('README.rst').read(),
     author='Abian Rodriguez',
@@ -27,7 +27,7 @@ setup(
     license='Apache License 2.0',
     packages=['azure_storage_logging'],
     install_requires=[
-        'azure-data-tables==12.2.0'
+        'azure-data-tables==12.4.0'
     ],
     classifiers=CLASSIFIERS,
     keywords='azure logging',
